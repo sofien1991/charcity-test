@@ -174,10 +174,7 @@ height: 350px;
     #btn {
      position: relative;
      bottom: 120px;
-
- 
     }
-
     .about-section p,
     .about-section h3 {
         font-size: 20px;
@@ -257,64 +254,52 @@ height: 350px;
     .icon {
     position: relative;
     left: 20px
-}
-
+    }
     #btn {
-     position: relative;
-     bottom: 100px;
-
- 
+    position: relative;
+    bottom: 100px;
     }
     #chard {
-   position: relative;
-   top: -10px;
-   font-size: 4em;
+    position: relative;
+    top: -10px;
+    font-size: 4em;
     }
     #ourservice {
-        background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/do3.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/do3.jpg);
+    margin-bottom: -120px;
     }
     #service {
-      width: 300px;
-      position: relative;
-      right:40px;
-      bottom: 100px;
-      height: 1200px;
-
+    width: 300px;
+    position: relative;
+    right:40px;
+    bottom: 100px;
+    height: 1200px;
     }
     #service div {
-
-        position: relative;
-        bottom: 100px;
-
+    position: relative;
+    bottom: 100px;
     }
-    .testimonials {
-        
-        margin-bottom: ;
-    }
-
-}
-#footer {
+    #footer {
     font-size: 1em;
     color: white;
     height: 70px;
     background-color: #3e4444;
-}
-#text {
+    }
+    #text {
     padding-top: 25px;
-}
-#map {
+    }
+    #map {
     height: 100%;
-  }
-  html, body {
+    }
+    html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-  }
-#fb {
+    }
+    #fb {
     position: relative;
     right: 50px;
-}
-
+    }
 }
 @media (min-width:800px) {
     #contact-color {
@@ -326,28 +311,42 @@ height: 350px;
     #btn {
         margin-top: 60px;
     }
-    .testimonals {
-        height: 850px;
+    .box {
+        position: relative;
+        left: 50px;
     }
-    .col-md-3 {
-    margin: 40px;
-}
-
+    .testo {
+        margin-bottom: 100px;
+        position: relative;
+        left: 55px;
+    }
+    #fb {
+        margin-right: 20px;
+    }
+    footer {
+        color: white;
+        background-color: #3e4444;
+        padding-top: 14px;
+        padding-bottom: 12px;
+    }
 }
 #ourservice {
     font-family: 'Big Shoulders Text', cursive;
     color: white;
-background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/do2.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center;
-position: center;
-padding-top: 80px;
-padding-bottom: 300px;
-font-size: 1.5em;
-height: auto;
-width: 100%
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/do2.jpg);
+    background-size: cover;
+    -webkit-background-size: cover
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: center;
+    padding-top: 80px;
+    padding-bottom: 300px;
+    font-size: 1.5em;
+    height: auto;
+    width: 100%
 }
 #ourservice h1 {
     margin-bottom: 200px;
@@ -364,6 +363,7 @@ width: 100%
 #icons{
     font-size: 2.5em;
 }
+
 .box:hover {
     cursor: pointer;
 }
@@ -379,6 +379,9 @@ width: 100%
 }
 .col-md-3 {
     margin: 30px;
+}
+.testo {
+    margin-bottom: 60px;
 }
 .profile {
     color: black;
@@ -410,7 +413,7 @@ blockquote::before {
     content: '\93';
     font-size: 50px;
     position: relative;
-    color: #405d27;
+    color: #405d27
     line-height: 20px;
     bottom: -15px;
     right: 5px;
@@ -419,7 +422,7 @@ blockquote::after {
     content: '\94';
     font-size: 50px;
     position: relative;
-    color: #405d27;
+    color: #405d27
     line-height: 20px;
     bottom: -15px;
     left: 5px;
